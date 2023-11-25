@@ -16,8 +16,11 @@ function App() {
 
   const [read,  setRead] =useState(0);
 
-  const handleReading = time => {
+  const handleReading = (time,id) => {
     setRead(read + time);
+
+    const remainingBookmarks = bookmarks.filter(bookmarks => bookmarks.id !== id);
+    setBookmarks(remainingBookmarks);
   }
 
   return (
@@ -31,4 +34,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
