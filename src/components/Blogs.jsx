@@ -1,5 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useState, useEffect } from 'react';
+import Blog from './Blog';
 
 const Blogs = () => {
   const [blogs, setBlogs] = useState([]);
@@ -17,6 +18,9 @@ const Blogs = () => {
     // Your component JSX here
     <div className='md:w-2/3'>
       <h2>Blogs : {blogs.length}</h2>
+      {
+        blogs.map(blog => <Blog blog={blog} key={blog.id}></Blog>)
+      }
     </div>
   );
 };
