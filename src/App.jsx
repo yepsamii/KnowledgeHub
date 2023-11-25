@@ -14,12 +14,18 @@ function App() {
     setBookmarks(newBookmarks);
   };
 
+  const [read,  setRead] =useState(0);
+
+  const handleReading = time => {
+    setRead(read + time);
+  }
+
   return (
     <div className='max-w-7xl mx-auto'>
       <Header></Header>
       <div className='md:flex'>
-        <Blogs handleBookmarks={handleBookmarks}></Blogs>
-        <Bookmarks bookmarks={bookmarks}></Bookmarks>
+        <Blogs handleReading={handleReading} handleBookmarks={handleBookmarks}></Blogs>
+        <Bookmarks read={read} bookmarks={bookmarks}></Bookmarks>
       </div>
     </div>
   )
