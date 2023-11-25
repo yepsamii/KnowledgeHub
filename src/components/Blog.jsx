@@ -16,7 +16,7 @@ const Blog = ({blog, handleBookmarks}) => {
                 </div>
                 <div>
                     <span>{read_duration} min read</span>
-                    <button onClick={handleBookmarks} className='ml-2'><CiBookmark></CiBookmark></button>
+                    <button onClick={() => handleBookmarks(blog)} className='ml-2'><CiBookmark></CiBookmark></button>
 
                 </div>
             </div>
@@ -28,7 +28,8 @@ const Blog = ({blog, handleBookmarks}) => {
 };
 
 Blog.propTypes = {
-    blog: PropTypes.object.isRequired
+    blog: PropTypes.object.isRequired,
+    handleBookmarks: PropTypes.func
 }
 
 export default Blog;

@@ -1,6 +1,8 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useState, useEffect } from 'react';
 import Blog from './Blog';
+import PropTypes from 'prop-types';
+
 
 const Blogs = ({handleBookmarks}) => {
   const [blogs, setBlogs] = useState([]);
@@ -24,5 +26,8 @@ const Blogs = ({handleBookmarks}) => {
     </div>
   );
 };
+Blogs.propTypes = {
+    handleBookmarks: PropTypes.func
+}
 
 export default Blogs;
