@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "cover_img": "https://i.ibb.co/dgGVWrP/2754028-379726-PCCEGQ-412.jpg",
+      "date": "2023-11-25",
+      "hashtag": "#technology",
+      "read_duration": "10 mins",
+      "title": "The Future of Artificial Intelligence",
+      "thumbnail_img": "https://i.ibb.co/x2G0t2z/5708448.jpg",
+      "author_name": "John Doe"
+    },
+    {
+      "id": 2,
+      "cover_img": "https://i.ibb.co/WGS9P4r/7187620-3560886.jpg",
+      "date": "2023-11-24",
+      "hashtag": "#science",
+      "read_duration": "8 mins",
+      "title": "Exploring the Mysteries of Dark Matter",
+      "thumbnail_img": "https://i.ibb.co/Npxs9sG/12062052-4886829.jpg",
+      "author_name": "Jane Smith"
+    },
+    {
+      "id": 3,
+      "cover_img": "https://i.ibb.co/ZxY6gmr/7305459-3599743.jpg",
+      "date": "2023-11-23",
+      "hashtag": "#travel",
+      "read_duration": "15 mins",
+      "title": "Adventures in the Amazon Rainforest",
+      "thumbnail_img": "https://i.ibb.co/rdCJFrT/red-black-brush-stroke-banner-background-perfect-canva.jpg",
+      "author_name": "David Johnson"
+    },
+    {
+      "id": 4,
+      "cover_img": "https://i.ibb.co/tzyP20v/7327668-3594138.jpg",
+      "date": "2023-11-22",
+      "hashtag": "#health",
+      "read_duration": "12 mins",
+      "title": "Mindfulness Meditation for a Healthy Mind",
+      "thumbnail_img": "https://i.ibb.co/2ngf0Ys/6580335-2253.jpg",
+      "author_name": "Sarah Miller"
+    },
+    {
+      "id": 5,
+      "cover_img": "https://i.ibb.co/yXhn4CK/3300560-484569-PH1-WQ0-9-CORREGIDO.jpg ",
+      "date": "2023-11-21",
+      "hashtag": "#food",
+      "read_duration": "20 mins",
+      "title": "Gourmet Delights: A Culinary Journey",
+      "thumbnail_img": "https://i.ibb.co/3dKy2W6/10308628-18361499.jpg",
+      "author_name": "Michael Thompson"
+    }
+]  
+
